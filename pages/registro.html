@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body class="body" >
+
+  <header>
+
+    <div class="envios">
+      <h3>Envíos a todo el país // Hasta 6 cuotas sin interes</h3>
+    </div>
+
+    <div class="header">
+
+      <img class="header_icon1" src="/assets/img/carrito.png">
+      <img class="header_icon2" src="/assets/img/lupita.png">
+      <h1>XXSPORTS</h1>
+      <img class="corazon" src="/assets/img/corazon.png">
+
+
+    </div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="./indumentaria.html">INDUMENTARIA</a>
+          <ul>
+            <li>REMERAS</li>
+            <li>PANTALONES Y SHORTS</li>
+            <li>BUZOS Y CAMPERAS</li>
+          </ul>
+        </li>
+        <li><a href="./accesorios.html">ACCESORIOS</a>
+          <ul>
+            <li>BOLSOS Y CARTERAS</li>
+            <li>MEDIAS</li>
+            <li>GORROS</li>
+          </ul>
+        </li>
+        <li><a href="./calzado.html">CALZADO</a>
+          <ul>
+            <li>ZAPATILLAS</li>
+            <li>OJOTAS</li>
+          </ul>
+        </li>
+        <li><a href="./registro.html">REGISTRO</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+
+      <div class="titulo_reg">
+        <h2>BIENVENIDO!</h2>
+        <p>Registrate y recibí todas las promociones y descuentos :)</p>
+      </div>
+
+      <form class action="" method="post">
+
+        <div class="form_1">
+          <p>E-mail <span class="campo">*</span></p>
+          <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="form_1">
+          <p>Contraseña <span class="campo">*</span></p>
+          <input type="password" name="password" id="password" required>
+        </div>
+
+        <div class="form_1">
+          <p>Nombre <span class="campo">*</span></p>
+          <input type="text" name="nombre" id="nombre" required>
+        </div>
+
+        <div class="form_1">
+          <p>Apellido <span class="campo">*</span></p>
+          <input type="text" name="apellido" id="apellido" required>
+        </div>
+
+        <div class="form_1">
+          <p>DNI <span class="campo">*</span></p>
+          <input type="number" name="dni" id="dni" required>
+        </div>
+
+        <div class="genero">
+
+          <div class="titulo_genero">
+            <p>Género<span class="campo">*</span></p>
+          </div>
+
+          <div class="genero_opcion">
+            <div class="genero_h">
+              <p>Hombre</p>
+            </div>
+            <input class="genero_input" type="radio" name="genero" id="h">
+          </div>
+
+          <div class="genero_opcion">
+            <div>
+              <p>Mujer</p>
+            </div>
+            <input class="genero_input" type="radio" name="genero" id="m">
+          </div>
+
+        </div>
+
+        <div class="pais">
+          <p>País <span class="campo">*</span></p>
+          <select class="option_pais" name="pais">
+            <option value="ar">Argentina</option>
+            <option value="br">Brasil</option>
+            <option value="ch">Chile</option>
+            <option value="ur">Uruguay</option>
+          </select>
+        </div>
+
+        <div class="newsletter">
+          <p>Deseo recibir el newsletter</p>
+          <input class="input_newsletter" type="checkbox" name="acepto" id="si">
+        </div>
+
+        <div class="tyc">
+          <p>Acepto términos y condiciones <span class="campo">*</span></p>
+          <input class="input_tyc" type="checkbox" name="acepto" id="si" required>
+        </div>
+
+        <div class="form_oblig">
+          <p>*Campos obligatorios</p>
+        </div>
+
+        <div class="btn_form">
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar todo">
+        </div>
+
+    </form>
+
+  </main>
+
+  <aside></aside>
+
+  <footer class="footer-index">
+    <h5>© 2022 xxsports, todos los derechos reservados. </h5>
+  </footer>
+
+</body>
+
+</html>
