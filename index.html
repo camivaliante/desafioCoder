@@ -7,173 +7,213 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>xxsports</title>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body class="body">
 
-  <div class="container-index">
+  <header>
 
-    <header class="header-index">
+    <div class="fs-6 envios text-center">
+      <p>Envíos a todo el país // Hasta 6 cuotas sin interes </h3>
+    </div>
 
-      <div class="envios">
-        <h3>Envíos a todo el país // Hasta 6 cuotas sin interes </h3>
-      </div>
+    <div class="fs-2 text-center">
+      <p>XXSPORTS</p>
+    </div>
 
-      <div class="header">
-
-        <img class="header_icon1" src="./assets/img/carrito.png">
-        <img class="header_icon2" src="./assets/img/lupita.png">
-        <h1>XXSPORTS</h1>
-        <img class="corazon" src="./assets/img/corazon.png">
-
-      </div>
-
-      <nav class="navbar">
-        <ul>
-          <li><a href="./index.html">INICIO</a></li>
-          <li><a href="./pages/indumentaria.html">INDUMENTARIA</a>
-            <ul>
-              <li>REMERAS</li>
-              <li>PANTALONES Y SHORTS</li>
-              <li>BUZOS Y CAMPERAS</li>
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/indumentaria.html">Indumentaria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/calzado.html">Calzado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/accesorios.html">Accesorios</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Usuario
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./pages/registro.html">Registrate</a></li>
+                <li><a class="dropdown-item" href="./pages/user.html">Inicia sesión</a></li>
+            </li>
+          </ul>
           </li>
-          <li><a href="./pages/accesorios.html">ACCESORIOS</a>
-            <ul>
-              <li>BOLSOS Y CARTERAS</li>
-              <li>MEDIAS</li>
-              <li>GORROS</li>
-            </ul>
-          </li>
-          <li><a href="./pages/calzado.html">CALZADO</a>
-            <ul>
-              <li>ZAPATILLAS</li>
-              <li>OJOTAS</li>
-            </ul>
-          </li>
-          <li><a href="./pages/registro.html">REGISTRO</a></li>
-        </ul>
-      </nav>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
-    </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/banner-nike-index.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/banner-adidas-index.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/banner-puma-index.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-    <main class="main-index">
+  </header>
 
-      <div class="fotoheader">
-        <img class="fotoheader" src="./assets/img/banner_puma.jpg">
+  <main>
+
+    <div class="cabj">
+      
+      <div class="container-fluid">
+        <p class="fs-4 text-start m-3">Boca Juniors 2022</p>
+        <p class="fs-6 m-3 mb-2"> Un verdadero hincha vive la pasión por su equipo cada día, cada hora y en todo
+          momento. Encontrá acá las camisetas, remeras, buzos, musculosas, pantalones y medias de tu equipo de
+          fútbol.</p>
       </div>
 
-      <div data-aos="fade-right" data-aos-duration="2500" class="titulo_index">
-        <h4>Boca Juniors 2022</h4>
-        <p>VER TODO</p>
-      </div>
 
-      <div class="index_descr">
-        <p>Un verdadero hincha vive la pasión por su equipo cada día, cada hora y en todo momento. Encontrá acá las
-          camisetas, remeras, buzos, musculosas, pantalones y medias de tu equipo de fútbol favorito.</p>
-      </div>
+      <div class="d-flex flex-wrap justify-content-center">
 
-      <div class="productos_index">
-
-        <div class="index_coleccion">
-          <img src="./assets/img/Camiseta_Boca_81_Azul_HC0300_41_detail.jpg">
-          <h4>CAMISETA RETRO BOCA 81</h4>
-          <P>$15.999</P>
-          <button>COMPRAR</button>
+        <div class="card my-2 m-3" style="width: 250px;">
+          <img src="./assets/img/Camiseta_Boca_81_Azul_HC0300_41_detail.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CAMISETA RETRO BOCA JUNIORS 81</h5>
+            <p class="card-text">$15.999</p>
+            <button type="button" class="btn btn-outline-dark">Comprar</button>
+          </div>
         </div>
 
-        <div class="index_coleccion">
-          <img src="./assets/img/bc1ef4e59667476c8144ad8200789be8_9366.webp">
-          <h4>CAMPERA DEPORTIVA CABJ</h4>
-          <P>$13.999</P>
-          <button>COMPRAR</button>
+        <div class="card my-2 m-3" style="width: 250px;">
+          <img src="./assets/img/bc1ef4e59667476c8144ad8200789be8_9366.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CAMPERA DEPORTIVA CABJ</h5>
+            <p class="card-text">$13.999</p>
+            <button type="button" class="btn btn-outline-dark">Comprar</button>
+          </div>
         </div>
 
-        <div class="index_coleccion">
-          <img src="./assets/img/308919-800-800.webp">
-          <h4>REMERA ICONS BOCA JUNIORS</h4>
-          <P>$10.999</P>
-          <button>COMPRAR</button>
+        <div class="card my-2 m-3" style="width: 250px;">
+          <img src="./assets/img/Pantalon_Icons_Boca_Juniors_Azul_GK4768_41_detail.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PANTALÓN ICONS BOCA JUNIORS</h5>
+            <p class="card-text">$12.499</p>
+            <button type="button" class="btn btn-outline-dark">Comprar</button>
+          </div>
         </div>
 
-        <div class="index_coleccion">
-          <img src="./assets/img/Pantalon_Icons_Boca_Juniors_Azul_GK4768_41_detail.jpg">
-          <h4>PANTALÓN ICONS BOCA JUNIORS</h4>
-          <P>$12.499</P>
-          <button>COMPRAR</button>
-        </div>
-
-      </div>
-
-      <div data-aos="fade-left"  data-aos-duration="2500" class="titulo_index1">
-        <h4>Lacoste x Peanuts</h4>
-        <p>NUEVO</p>
-      </div>
-
-      <div class="index_descr">
-        <p>Más que una colaboración, esta es una celebración de dos marcas icónicas. Snoopy, Charlie Brown y sus
-          amigos
-          Peanuts, llegan a Lacoste por tercera vez para una nueva colección deportiva, dulce e hilarante.</p>
-      </div>
-
-      <div class="peanuts_banner">
-        <img src="./assets/img/banner snoopy.png" alt="">
-      </div>
-
-      <div class="productos_index">
-
-        <div class="index_coleccion">
-          <img src="./assets/img/625f1ae1d74d0-582300-500x500.jpg">
-          <h4>CHOMBA SNOOPY LACOSTE</h4>
-          <P>$17.999</P>
-          <button>COMPRAR</button>
-        </div>
-
-        <div class="index_coleccion">
-          <img src="./assets/img/remera peanuts.png">
-          <h4>CHOMBA PEANUTS LACOSTE</h4>
-          <P>$17.999</P>
-          <button>COMPRAR</button>
-        </div>
-
-        <div class="index_coleccion">
-          <img src="./assets/img/625f1b07cac9e-581502-500x500.jpg">
-          <h4>REMERA PEANUTS LACOSTE</h4>
-          <P>$13.999</P>
-          <button>COMPRAR</button>
-        </div>
-
-        <div class="index_coleccion">
-          <img src="./assets/img/625f1afb752ae-586990-500x500.jpg">
-          <h4>CANGURO PEANUTS LACOSTE</h4>
-          <P>$27.999</P>
-          <button>COMPRAR</button>
+        <div class="card my-2 m-3" style="width: 250px;">
+          <img src="./assets/img/308919-800-800.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">REMERA ICONS BOCA JUNIORS</h5>
+            <p class="card-text">$10.999</p>
+            <button type="button" class="btn btn-outline-dark ">Comprar</button>
+          </div>
         </div>
 
       </div>
 
-      <div data-aos="flip-down" data-aos-duration="3000" class="marcas">
+    </div>
 
-        <h4>Nuestras marcas</h4>
+    <div class="snoopy">
+      <div class="container-fluid">
+        <p class="fs-4 text-start m-3">Lacoste x Peanuts</p>
+        <p class="fs-6 m-3 mb-2"> Más que una colaboración, esta es una celebración de dos marcas icónicas. Snoopy,
+          Charlie Brown y sus amigos Peanuts, llegan a Lacoste por tercera vez para una nueva colección deportiva, dulce
+          e hilarante.</p>
+      </div>
 
-        <img src="./assets/img/logoadidasoriginals.png">
-        <img src="./assets/img/logonike.png">
-        <img src="./assets/img/logoreebok2.png">
-        <img src="./assets/img/puma.png">
-        <img src="./assets/img/fila.png">
-        <img src="./assets/img/converse.png">
+      <div class="d-flex flex-wrap justify-content-center">
+
+        <div class="card my-2 m-3" style="width: 250px;">
+          <img src="./assets/img/625f1ae1d74d0-582300-500x500.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CHOMBA SNOOPY LACOSTE</h5>
+            <p class="card-text">$17.999</p>
+            <button type="button" class="btn btn-outline-dark">Comprar</button>
+          </div>
+        </div>
+
+        <div class="card my-2 m-3" style="width: 250px;">
+          <img src="./assets/img/625f1afb752ae-586990-500x500.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CANGURO PEANUTS LACOSTE</h5>
+            <p class="card-text">$27.999</p>
+            <button type="button" class="btn btn-outline-dark">Comprar</button>
+          </div>
+        </div>
+
+        <div class="card my-2 m-3" style="width: 250px;">
+          <img src="./assets/img/625f1b07cac9e-581502-500x500.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">REMERA PEANUTS LACOSTE</h5>
+            <p class="card-text">$13.999</p>
+            <button type="button" class="btn btn-outline-dark">Comprar</button>
+          </div>
+        </div>
+
+        <div class="card my-2 m-3" style="width: 250px;">
+          <img src="./assets/img/remera peanuts.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CHOMBA PEANUTS LACOSTE</h5>
+            <p class="card-text">$17.999</p>
+            <button type="button" class="btn btn-outline-dark ">Comprar</button>
+          </div>
+        </div>
 
       </div>
 
-    </main>
+    </div>
 
-    <footer class="footer-index">
-      <h5>© 2022 xxsports, todos los derechos reservados. </h5>
-    </footer>
+  </main>
+
+  <footer class="fs-6 footer text-center">
+    <p>© 2022 xxsports, todos los derechos reservados.</p>
+  </footer>
 
   </div>
-
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();

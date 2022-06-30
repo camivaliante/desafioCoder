@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Joan&family=Tai+Heritage+Pro&display=swap');
 
 * {
     margin: 0%;
@@ -6,250 +5,22 @@
     box-sizing: border-box;
 }
 
-.body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container-index{
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 100% auto;
-    grid-template-rows: auto;
-    grid-template-areas: "header-index"
-                         "main-index"
-                         "footer-index";
-}
-
-.header-index{
-    grid-area: header-index;
-}
-
-.main-index{
-    grid-area: main-index;
-}
-
-.header {
-    display: flex;
-    height: 30px;
-    width: 100%;
-}
-
-.header_icon1 {
-    height: 30px;
-    justify-content: left;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-.header_icon2 {
-    height: 30px;
-    justify-content: left;
-    margin-top: 5px;
-}
-
-.corazon {
-    height: 30px;
-    margin-left: 90px;
-    margin-top: 5px;
-}
-
-.header h1 {
-    color: #161616;
-    font-size: 20px;
-    font-family: "Tai Heritage Pro";
-    margin-left: 70px;
-}
-
 .envios {
     color: rgb(255, 255, 255);
     background-color: black;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    width: 100%;
-}
-
-.navbar {
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    padding: 2px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bolder
-}
-
-.navbar ul {
-    display: block;
-    list-style: none;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-.navbar ul li {
-    display: inline-block;
-    margin-top: 10px;
-    color: rgb(0, 0, 0);
-    position: relative;
-    text-decoration: none;
-}
-
-.navbar ul li ul {
-    display: none;
-    text-decoration: none;
-}
-
-.navbar ul li:hover ul {
-    display: block;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.marcas h4 {
-    text-align: center;
-    font-size: 25px;
-    padding: 15px;
-    text-shadow: 1px 3px rgba(29, 29, 29, 0.24);
-
-}
-
-.marcas img {
-    width: 100px;
-    padding: 10px;   
-    margin-left: 15px;
-}
-
-.fotoheader img {
-    width: 100%;
-    height: 150px;
-    margin-top: 10px;
-}
-
-.titulo_index {
-    display: flex;
-}
-
-.titulo_index h4 {
-    font-size: 30px;
-    text-align: left;
-    margin-left: 18px;
-    margin-top: 10px;
-    color: blue;
-}
-
-.titulo_index p {
-    font-size: 13px;
-    margin-left: 10px;
-    margin-top: 20px;
-    font-weight: bolder;
-    text-decoration: underline;
-    color: black;
-}
-
-.titulo_index1 {
-    display: flex;
-}
-
-.titulo_index1 h4 {
-    font-size: 30px;
-    text-align: left;
-    margin-left: 25px;
-    margin-top: 10px;
-    color: #004526;
-}
-
-.titulo_index1 p {
-    font-size: 13px;
-    margin-left: 10px;
-    margin-top: 20px;
-    font-weight: bolder;
-    text-decoration: underline;
-    color: red;
-}
-
-.index_descr {
-    text-align: center;
-    font-size: 13px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.peanuts_banner {
-    width: 100%;
-    text-align: center;
-    background-color: #f7f7f7;
-    margin-top: 10px;
-}
-
-.peanuts_banner img {
-    width: 55%;
-}
-
-.productos_index {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-}
-
-.index_coleccion {
-    margin: 20px;
-    width: 150px;
-    margin-left: 4px;
-}
-
-.index_coleccion h4 {
-    font-size: 15px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.index_coleccion p {
-    font-size: 15px;
-    text-align: center;
-    color: rgb(54, 54, 54);
-    font-weight: bold;
-}
-
-.index_coleccion button {
-    margin-left: 40px;
-    margin-top: 8px;
-}
-
-.index_coleccion img {
-    width: 100%;
 }
 
 .container {
     display: grid;
     height: 100vh;
-    grid-template-areas: "aside main"
-                         "footer footer";
-    grid-template-columns: 10% 90%;
+    grid-template-areas: "aside main";
+    grid-template-columns: 20px auto;
     grid-template-rows: auto;
-    
 }
+
 .aside {
     grid-area: aside;
     margin-top: 10px;
-}
-
-.aside h3 {
-    text-decoration: underline;
-    margin-left: 8px;
-    font-size: 15px;
-}
-
-.aside h4 {
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .input_cat {
@@ -263,8 +34,7 @@
 }
 
 .main {
-    grid-area: main;
-    background-color: rgb(255, 255, 255);
+    grid-area: main;;
     margin-left: 100px;
 }
 
@@ -408,268 +178,33 @@
 }
 
 .footer {
-    grid-area: footer;
     background-color: black;
     color: white;
-    text-align: center;
-    font-size: 15px;  
 }
-
-.footer-index {
-    grid-area: footer-index;
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    width: 100%;
-    position:relative;
-    bottom: 0; 
-}
-
 
 @media(min-width:576px) {
     
-    .body{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .container-index{
-        display: grid;
-        height: 100vh;
-        grid-template-columns: 100% auto;
-        grid-template-rows: auto;
-        grid-template-areas: "header-index"
-                             "main-index"
-                             "footer-index";
-    }
-
-    .header-index{
-        grid-area: header-index;
-    }
-
-    .main-index{
-        grid-area: main-index;
-    }
-
-    .header {
-        display: flex;
-        height: 60px;
-        width: 100%;
-    }
-
-    .header_icon1 {
-        height: 35px;
-        justify-content: left;
-        margin-top: 20px;
-        margin-left: 25px;
-    }
-
-    .header_icon2 {
-        height: 35px;
-        justify-content: left;
-        margin-right: 420px;
-        margin-top: 20px;
-    }
-
-    .corazon {
-        height: 35px;
-        justify-content: right;
-        margin-left: 520px;
-        margin-top: 20px;
-    }
-
-    .header h1 {
-        color: #161616;
-        font-size: 30px;
-        font-family: "Tai Heritage Pro";
-        margin-top: 10px;
-    }
-
     .envios {
         color: rgb(255, 255, 255);
         background-color: black;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 11px;
-        width: 100%;
-    }
-
-    .navbar {
-        width: 100%;
-        height: 50px;
-        background-color: rgb(255, 255, 255);
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        text-decoration: none;
-    }
-
-    .navbar ul li a {
-        color: black;
-        font-weight: bolder
-    }
-
-    .navbar ul {
-        display: block;
-        list-style: none;
-        color: rgb(0, 0, 0);
-    }
-
-    .navbar ul li {
-        display: inline-block;
-        margin-top: 10px;
-        padding: 5px;
-        color: rgb(0, 0, 0);
-        position: relative;
-    }
-
-    .navbar ul li ul {
-        display: none;
-    }
-
-    .navbar ul li:hover ul {
-        display: block;
-        position: absolute;
-        background-color: rgba(255, 255, 255, 0.527);
-    }
-
-    .fotoheader img {
-        width: 100%;
-        height: 350px;
-    }
-
-    .titulo_index {
-        display: flex;
-    }
-
-    .titulo_index h4 {
-        font-size: 30px;
-        text-align: left;
-        margin-top: 10px;
-        color: blue;
-    }
-
-    .titulo_index p {
-        font-size: 13px;
-        margin-top: 20px;
-        font-weight: bold;
-        text-decoration: underline;
-        color: black;
-    }
-
-    .index_descr {
-        text-align: justify;
-        font-size: 15px;
-        padding: 5px;
-    }
-
-    .titulo_index1 {
-        display: flex;
-        margin-top: 10px;
-    }
-
-    .titulo_index1 h4 {
-        font-size: 30px;
-        text-align: left;
-        margin-top: 10px;
-        color: #004526;
-    }
-
-    .titulo_index1 p {
-        font-size: 13px;
-        margin-top: 20px;
-        font-weight: bolder;
-        text-decoration: underline;
-        color: red;
-    }
-
-    .peanuts_banner {
-        width: 100%;
-        text-align: center;
-        background-color: #f7f7f7;
-        margin-top: 10px;
-    }
-
-    .peanuts_banner img {
-        width: 35%;
-    }
-
-    .productos_index {
-        display: flex;
-    }
-
-    .index_coleccion {
-        margin: 20px;
-        width: 280px;
-        margin-left: 30px;
-        text-align: center;
-    }
-
-    .index_coleccion h4 {
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
-
-    .index_coleccion p {
-        font-size: 15px;
-        color: rgb(54, 54, 54);
-        font-weight: bold;
-    }
-
-    .index_coleccion button {
-        margin-left: 2px;
-        margin-top: 8px;
-    }
-
-    .index_coleccion img {
-        width: 100%;
-    }
-
-    .marcas h4 {
-        text-align: center;
-        font-size: 30px;
-        padding: 20px;
-        text-shadow: 1px 3px rgba(29, 29, 29, 0.24);
-    }
-
-    .marcas img {
-        width: 200px;
-        padding: 10px;   
-        margin-left: 15px;
     }
 
     .container {
         display: grid;
         height: 100vh;
-        grid-template-areas: "aside main"
-                             "footer footer";
-        grid-template-columns: 10% 90%;
+        grid-template-areas: "aside main";
+        grid-template-columns: 80px auto;
         grid-template-rows: auto;
+        margin-bottom: 180px;
         
     }
 
     .aside {
         grid-area: aside;
-        margin-top: 10px;
-    }
-
-    .aside h3 {
-        text-decoration: underline;
-        margin-left: 20px;
-        color: rgb(20, 20, 20);
-    }
-
-    .aside h4 {
-        margin-left: 13px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 20px;
-        color: rgb(67, 84, 136);
     }
 
     .input_cat {
         display: flex;
-        margin-left: 10px;
     }
 
     .input_cat input {
@@ -679,7 +214,6 @@
 
     .main {
         grid-area: main;
-        background-color: rgb(255, 255, 255);
     }
 
     .productos_index1 {
@@ -689,7 +223,7 @@
 
     .index_coleccion1 {
         margin: 20px;
-        width: 300px;
+        width: 250px;
         margin-left: 30px;
         text-align: center;
         font-size: 15px;
@@ -819,24 +353,8 @@
     }
 
     .footer {
-        grid-area: footer;
         background-color: black;
         color: white;
-        text-align: center;
-        font-size: 15px; 
-        height: 20px; 
     }
-
-    .footer-index {
-        grid-area: footer-index;
-        background-color: black;
-        color: white;
-        text-align: center;
-        font-size: 15px;
-        width: 100%;
-        position:relative;
-        bottom: 0; 
-    }
-
 
 }
