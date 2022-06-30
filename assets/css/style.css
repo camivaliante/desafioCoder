@@ -16,7 +16,7 @@
     grid-template-areas: "aside main";
     grid-template-columns: 20px auto;
     grid-template-rows: auto;
-    margin-bottom: 280px;     
+    margin-bottom: 150px;     
 
 }
 
@@ -52,113 +52,6 @@
 
 .index_coleccion1 img {
     width: 100%;
-}
-
-.titulo_reg {
-    text-align: center;
-    font-size: 15px;
-    color: black;
-    margin-bottom: 10px;
-}
-
-.titulo_reg p {
-    text-align: center;
-    font-size: 17px;
-    color: black;
-    margin-bottom: 20px;
-}
-
-.form_1 {
-    margin-left: 15px;
-    padding: 5px;
-    display: flex;
-}
-
-.form_1 input {
-    width: 250px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    border-radius: 5px;
-}
-
-.form_1 p {
-    width: 150px;
-}
-
-.campo {
-    color: red;
-    font-weight: bold;
-}
-
-.genero {
-    display: flex;
-    margin-left: 15px;
-}
-
-.titulo_genero {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 150px;
-}
-
-.genero_opcion {
-    width: 110px;
-    margin-bottom: 10px;
-}
-
-.genero_input {
-    margin-left: 10px;
-    width: 15px;
-    margin-top: 3px;
-}
-
-.pais {
-    margin-left: 15px;
-    display: flex;
-}
-
-.pais p {
-    margin-right: 125px;
-}
-
-.option_pais {
-    margin-top: 5px;
-    margin-left: 5px;
-}
-
-.newsletter {
-    display: flex;
-    margin-left: 15px;
-    margin-top: 20px;
-}
-
-.input_newsletter {
-    margin-left: 55px;
-    margin-top: 4px;
-}
-
-.tyc {
-    display: flex;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.input_tyc {
-    margin-left: 16px;
-    margin-top: 3px;
-}
-
-.form_oblig {
-    color: red;
-    font-size: 12px;
-    font-weight: bolder;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-
-.btn_form {
-    padding: 10px;
-    margin-left: 20px;
 }
 
 .footer {
@@ -211,114 +104,8 @@
         text-align: center;
     }
 
-
     .index_coleccion1 img {
         width: 100%;
-    }
-
-    .titulo_reg {
-        text-align: center;
-        font-size: 15px;
-        color: black;
-        margin-bottom: 10px;
-    }
-
-    .titulo_reg p {
-        font-size: 17px;
-        margin-bottom: 20px;
-    }
-
-    .form_1 {
-        margin-left: 400px;
-        padding: 5px;
-        display: flex;
-    }
-
-    .form_1 input {
-        width: 250px;
-        margin-bottom: 10px;
-        margin-left: 20px;
-        border-radius: 5px;
-    }
-
-    .form_1 p {
-        width: 150px;
-    }
-
-    .campo {
-        color: red;
-        font-weight: bold;
-    }
-
-    .genero {
-        display: flex;
-        margin-left: 403px;
-    }
-
-    .titulo_genero {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-right: 150px;
-    }
-
-    .genero_opcion {
-        width: 110px;
-        margin-bottom: 10px;
-    }
-
-    .genero_input {
-        margin-left: 10px;
-        width: 15px;
-        margin-top: 3px;
-    }
-
-    .pais {
-        margin-left: 405px;
-        display: flex;
-    }
-
-    .pais p {
-        margin-right: 125px;
-    }
-
-    .option_pais {
-        margin-top: 5px;
-        margin-left: 5px;
-    }
-
-    .newsletter {
-        display: flex;
-        margin-left: 404px;
-        margin-top: 20px;
-    }
-
-    .input_newsletter {
-        margin-left: 55px;
-        margin-top: 4px;
-    }
-
-    .tyc {
-        display: flex;
-        margin-left: 404px;
-        margin-top: 15px;
-    }
-
-    .input_tyc {
-        margin-left: 16px;
-        margin-top: 3px;
-    }
-
-    .form_oblig {
-        color: red;
-        font-size: 12px;
-        font-weight: bolder;
-        margin-left: 805px;
-        margin-top: 15px;
-    }
-
-    .btn_form {
-        padding: 10px;
-        margin-left: 800px;
     }
 
     .footer {
