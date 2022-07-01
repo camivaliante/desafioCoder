@@ -72,7 +72,7 @@
         grid-template-areas: "aside main";
         grid-template-columns: 80px auto;
         grid-template-rows: auto;
-        margin-bottom: 280px;     
+        margin-bottom: 320px;     
     }
 
     .aside {
