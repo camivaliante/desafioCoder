@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.titulo h1{
+    color:#d3a84c;
+}
+
+.titulo p{
+    color: #7a632f;
+    font-size: 18px;
+}
+
+
 .index{
     display: flex;
     flex-wrap: wrap;
