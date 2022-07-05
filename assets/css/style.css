@@ -1,4 +1,3 @@
-
 * {
     margin: 0%;
     padding: 0%;
@@ -7,37 +6,41 @@
 
 .envios {
     color: rgb(255, 255, 255);
-    background-color: black;
+    background-color: #212529;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.titulo p {
+    color: #212529;
+}
+
+.dropdown-menu {
+    background: #212529;
+}
+
+.dropdown-item {
+    color: #9b9d9e;
 }
 
 .container {
-    display: grid;
-    height: 100vh;
-    grid-template-areas: "aside main";
-    grid-template-columns: 20px auto;
-    grid-template-rows: auto;
-    margin-bottom: 250px;     
-
+    display: flex;
 }
 
 .aside {
-    grid-area: aside;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .input_cat {
     display: flex;
-    margin-left: 10px;
 }
 
 .input_cat input {
     margin-top: 3px;
     margin-right: 5px;
-}
-
-.main {
-    grid-area: main;;
-    margin-left: 80px;
 }
 
 .productos_index1 {
@@ -46,8 +49,10 @@
 }
 
 .index_coleccion1 {
-    margin: 10px;
-    width: 95px;
+    margin: 20px;
+    margin-right: 10px;
+    width: 80px;
+    text-align: center;
 }
 
 .index_coleccion1 img {
@@ -55,29 +60,40 @@
 }
 
 .footer {
-    background-color: black;
+    background-color: #212529;
     color: white;
-    height: 20px;
 }
 
 @media(min-width:576px) {
-    
+
     .envios {
-        color: rgb(255, 255, 255);
-        background-color: black;
+        color: #ffffff;
+        background-color: #212529;
+    }
+
+    a {
+        outline: none;
+        text-decoration: none;
+    }
+
+    .titulo p {
+        color: #212529;
+    }
+
+    .dropdown-menu {
+        background: rgb(36, 40, 41);
+    }
+
+    .dropdown-item {
+        color: #9b9d9e;
     }
 
     .container {
-        display: grid;
-        height: 100vh;
-        grid-template-areas: "aside main";
-        grid-template-columns: 80px auto;
-        grid-template-rows: auto;
-        margin-bottom: 300px;     
+        display: flex;
     }
 
     .aside {
-        grid-area: aside;
+        margin-top: 20px;
     }
 
     .input_cat {
@@ -89,10 +105,6 @@
         margin-right: 5px;
     }
 
-    .main {
-        grid-area: main;
-    }
-
     .productos_index1 {
         display: flex;
         flex-wrap: wrap;
@@ -100,7 +112,7 @@
 
     .index_coleccion1 {
         margin: 20px;
-        width: 250px;
+        width: 200px;
         margin-left: 30px;
         text-align: center;
     }
@@ -110,9 +122,8 @@
     }
 
     .footer {
-        background-color: black;
+        background-color: #212529;
         color: white;
-        height: 20px;
     }
 
 }
