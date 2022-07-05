@@ -40,6 +40,20 @@
     text-decoration: underline;
 }
 
+.image-box img {
+    max-width: 100%;
+    transition: all 0.5s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
+
+
 .container {
     display: flex;
 }
@@ -130,7 +144,7 @@ a:hover{
 
     .index_coleccion1 {
         margin: 20px;
-        width: 200px;
+        width: 195px;
         margin-left: 30px;
         text-align: center;
     }
