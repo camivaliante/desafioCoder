@@ -10,6 +10,21 @@
     font-size: 13px;
 }
 
+.cabj-titulo{
+    color: blue;
+}
+
+.snoopy-titulo{
+    color: rgb(10, 78, 10);
+}
+
+.span-index{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .container {
     display: flex;
 }
@@ -75,8 +90,6 @@ a {
     text-decoration: none;
     color: white;
 }
-
-
 
 @media(min-width:576px) {
 
