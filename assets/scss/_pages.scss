@@ -1,0 +1,60 @@
+.container {
+    display: flex; }
+  
+  .aside {
+    margin-top: 20px; }
+  
+  .titulo-aside {
+    color: $color-secundario; }
+  
+  .input_cat {
+    display: flex; }
+  
+  .input_cat input {
+    margin-top: 3px;
+    margin-right: 5px; }
+  
+  .productos_index1 {
+    display: flex;
+    flex-wrap: wrap; }
+  
+  .index_coleccion1 {
+    margin: 20px;
+    margin-right: 10px;
+    width: 80px;
+    text-align: center; }
+  
+  .index_coleccion1 img {
+    width: 100%; }
+
+    .page-link {
+      color: black;
+      &:hover{
+        color: black;
+      }
+      &:visited{
+        color: black;
+      }
+  }
+
+  .image-box img {
+    max-width: 100%;
+    transition: all 0.5s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
+
+
+  .nav-page{
+    &:active{
+      background-color: transparent;
+      color: transparent;
+    }
+  }
+  

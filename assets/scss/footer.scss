@@ -1,0 +1,27 @@
+.footer {
+    background-color: $color-fondo;
+    color: white;
+}
+
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-control{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-class {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
