@@ -1,0 +1,28 @@
+.index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.index-ropa {
+    @include m-ancho(20px, 140px);
+}
+
+.btn-center {
+    margin-left: 40%;
+}
+
+.cabj-titulo {
+    color: #1a1a77;
+}
+
+.snoopy-titulo {
+    color: rgb(10, 78, 10);
+}
+
+.span-index {
+    color: map-get($colores, color-secundario);
+    font-size: 15px;
+    font-weight: light;
+    text-decoration: underline;
+}

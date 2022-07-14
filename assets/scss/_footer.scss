@@ -1,6 +1,6 @@
 .footer {
-    background-color: $color-fondo;
-    color: white;
+    color: map-get($colores, headerfooter);
+    background-color: map-get($colores, color-fondo );
 }
 
 .newsletter {

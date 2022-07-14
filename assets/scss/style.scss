@@ -4,93 +4,48 @@
     box-sizing: border-box;
 }
 
-$color-principal: #d3a84c;
-$color-secundario: #7a632f;
-$color-fondo: #212529;
+$colores: (
+    color-principal: #d3a84c,
+    color-secundario: #7a632f,
+    color-fondo: #212529,
+    headerfooter: #ffffff
+);
 
+@mixin m-ancho($margen, $ancho) {
+    margin: $margen;
+    width: $ancho;
+}
+
+@import "index";
 @import "pages";
 @import "footer";
-
-.titulo h1 {
-    color: $color-principal;
-}
-
-.titulo p {
-    color: $color-secundario;
-    font-size: 18px;
-}
-
-.index {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.index-ropa {
-    width: 140px;
-    margin: 20px;
-}
-
-.btn-center {
-    margin-left: 40%;
-}
+@import "media";
 
 .envios {
-    color: rgb(255, 255, 255);
-    background-color: $color-fondo;
+    @extend .footer;
     font-size: 13px;
 }
 
-.cabj-titulo {
-    color: #1a1a77;
-}
+.titulo {
+    h1 {
+        color: map-get($colores, color-principal);
+    }
 
-.snoopy-titulo {
-    color: rgb(10, 78, 10);
-}
-
-.span-index {
-    color: $color-secundario;
-    font-size: 15px;
-    font-weight: light;
-    text-decoration: underline;
+    p {
+        color: map-get($colores, color-secundario);
+        font-size: 14px;
+    }
 }
 
 .a-forget {
-    color: $color-principal;
+    color: map-get($colores, color-principal);
 }
 
 a {
     text-decoration: none;
     color: white;
-}
 
-a:hover {
-    color: #b4b4b4;
-}
-
-@media(min-width:576px) {
-
-    .index-ropa {
-        width: 250px;
-        margin: 20px;
+    &:hover {
+        color: #b4b4b4;
     }
-
-    .btn-center {
-        margin-left: 45%;
-    }
-
-    .index_coleccion1 {
-        margin: 20px;
-        width: 195px;
-        margin-left: 30px;
-        text-align: center;
-    }
-
-    .footer-1 {
-        display: flex;
-        flex-direction: column;
-        margin: 15px;
-    }
-
 }
