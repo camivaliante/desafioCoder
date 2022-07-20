@@ -5,8 +5,8 @@
 }
 
 $colores: (
-    color-principal: #d3a84c,
-    color-secundario: #7a632f,
+    color-principal: #70bcbeb4,
+    color-secundario: #4d4a43,
     color-fondo: #212529,
     headerfooter: #ffffff
 );
@@ -29,11 +29,7 @@ $colores: (
 .titulo {
     h1 {
         color: map-get($colores, color-principal);
-    }
-
-    p {
-        color: map-get($colores, color-secundario);
-        font-size: 14px;
+        font-size: 30px;
     }
 }
 

@@ -4,6 +4,11 @@
     justify-content: center;
 }
 
+.alert {
+    background-color: map-get($colores, color-fondo);
+    color: rgb(230, 230, 230);
+}
+
 .index-ropa {
     @include m-ancho(20px, 140px);
 }
