@@ -57,13 +57,6 @@
   .index_coleccion1 img {
     width: 100%; }
 
-.page-link {
-  color: black; }
-  .page-link:hover {
-    color: black; }
-  .page-link:visited {
-    color: black; }
-
 .image-box img {
   max-width: 100%;
   transition: all 0.5s;
@@ -122,11 +115,11 @@
   font-size: 13px; }
 
 .titulo h1 {
-  color: #70bcbeb4;
+  color: #222525e7;
   font-size: 30px; }
 
 .a-forget {
-  color: #70bcbeb4; }
+  color: #222525e7; }
 
 a {
   text-decoration: none;
