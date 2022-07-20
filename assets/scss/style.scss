@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cairo:wght@300&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Fredoka+One&family=Gentium+Plus&family=Joan&family=Tai+Heritage+Pro&display=swap');
 * {
     margin: 0%;
     padding: 0%;
@@ -5,8 +6,8 @@
 }
 
 $colores: (
-    color-principal: #222525e7,
-    color-secundario: #4d4a43,
+    color-principal: #338528cb,
+    color-secundario: #474040,
     color-fondo: #212529,
     headerfooter: #ffffff
 );
@@ -30,6 +31,8 @@ $colores: (
     h1 {
         color: map-get($colores, color-principal);
         font-size: 30px;
+        font-family: Fredoka One;   
+
     }
 }
 
